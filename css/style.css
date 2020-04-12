@@ -1,0 +1,90 @@
+
+.content-all{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+margin-top: 60px;
+
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+body{
+background-image: url(../img/fondo.png);
+background-repeat: no-repeat;
+}
+
+main{
+
+    width: 100%;
+    height: auto;
+     
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    margin-left: 10px ;
+    font-size: 60px;
+}
+
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    background-image: url(../img/titulo.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 8px;
+    box-shadow: 0 0 10px black inset;
+
+}
+article{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px;
+    border:4px solid whitesmoke;
+    
+
+}
+
+header{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+margin-top: 45px;
+position: fixed;
+height: 160px;
+left: 0;
+top: 0;
+
+}
+h1{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+margin-top: 5px;
+position: relative; 
+height: 160px;
+color:#b3b3b3;
+    background-image: url(../img/titulo.png);
+background-size: 1200px;
+background-repeat: no-repeat;
+background-position: 100%;
+border: 4PX solid silver;
+
+}
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+.menu:link{ color: white;text-decoration: none;}
+.menu:visited{color: white;text-decoration: none;}
+.menu:hover{color: white;text-decoration: none;text-shadow:0 0 13px whitesmoke;}
+.menu:active{color: white;text-decoration: none;}
