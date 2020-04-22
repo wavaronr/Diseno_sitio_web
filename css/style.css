@@ -24,30 +24,24 @@ background-attachment: fixed;/*para atar la imagen*/
 
 }
 
-main{
-
-    width: 100%;
-    height: auto;
-
-}
 h1{
-    
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
     font-size: 60px;
-    margin-top: 1000px;
     text-align: center;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
-aside{
+aside.Git_logo{
         
-    padding: 100px;
-    top:20px;
-    margin-left: 250px
+    padding: 40px;
+    margin-top:20px;
+    width: center;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;/*hacer que la imagen se quede en el centro*/   
     
-    
-}
+ }
 
 h3{
     
@@ -56,29 +50,18 @@ h3{
     margin-top: auto;
     text-align: center;
 }
-ul.list-image{
-    height: 20px;
-}
-.content-all.list-image.figure{
-    top: 404px;
-    width: 50px;
-    height: 1px;
+
+
+aside.Github{
+    transform: scale(0.4);
+    border-radius: 80px;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;/*hacer que la imagen se quede en el centro*/    
+        
 }
 
 
-li{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    list-style-type: none;
-       padding: 10px;
-    background-image: transparent;
-    background-size: 180px;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    margin: 8px;
-    /*box-shadow: 0 0 10px black inset;*/
-
-}
 article{
     
     width: 100%;
@@ -97,19 +80,6 @@ header{
     background: #f2f2f2;
     box-shadow: 1px 1px 5px #000;
     height: 50px;
-    
-    
-
-/* primer diseño 
-header{width: 100%;
-max-width: 1000px;
-margin: auto;
-margin-top: 5px;
-position: fixed;
-height: 60px;
-left: 0;
-top: 0;
-*/
 }
 
 #menu{
@@ -146,7 +116,7 @@ margin-top: 5px;
 position: relative; 
 height: 160px;
 color:#b3b3b3;
-    background-image: url(../img/titulo.png);
+background-image: url(../img/titulo.png);
 background-size: 1200px;
 background-repeat: no-repeat;
 background-position: 100%;
@@ -162,16 +132,17 @@ border: 4PX solid silver;
     border-radius: 5px;
     border-style: solid ;
     border-color: darkgoldenrod;
+    text-decoration: none;
     
-
 }
-
 
 .PaginGit:hover{
     transition: all 0.5s;
-    transform: scale(0.9);
+    transform: scale(0.9);  
     
 }
+
+
 .separador{
     height: 20px;
  
@@ -185,6 +156,22 @@ border: 4PX solid silver;
     height: 315px;
 
 }
+.pie_pag{
+    
+    width: 100%;
+    background: #f2f2f2;
+    box-shadow: 1px 1px 5px #000;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid ;
+    border-color: darkgoldenrod;
+    font-size: 15px;
+    text-shadow:0 0 13px black;
+
+}
+
+
 
 /*.ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
