@@ -43,6 +43,18 @@ aside.Git_logo{
     
  }
 
+ aside.htmlccs3{
+        
+    padding: 40px;
+    margin-top:20px;
+    width: 100%;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;/*hacer que la imagen se quede en el centro*/   
+    
+ }
+
+
 h3{
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
@@ -83,8 +95,8 @@ header{
 }
 
 #menu{
-    width:500px;
-    margin: 20px auto;
+    width:600px;
+    margin: 50px auto;
     padding-top: 15px;
 }
 
@@ -137,10 +149,26 @@ border: 4PX solid silver;
 }
 
 .PaginGit:hover{
-    transition: all 0.5s;
-    transform: scale(0.9);  
     
+    transition: all 0.5s;
+    transform: scale(0.9);     
 }
+.PaginGitHub{
+    width: 60%;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;/*hacer que la imagen se quede en el centro*/
+    border-radius: 5px;
+    border-style: solid ;
+    border-color: darkgoldenrod;
+    text-decoration: none;
+}
+.PaginGitHub:hover{
+    
+    transition: all 0.5s;
+    transform: scale(0.9);     
+}
+
 
 
 .separador{
@@ -148,7 +176,7 @@ border: 4PX solid silver;
  
 }
 .videoGit{
-    
+       
     margin-left:auto ;
     margin-right: auto;
     display: block;/*hacer que la imagen se quede en el centro*/
@@ -156,12 +184,27 @@ border: 4PX solid silver;
     height: 315px;
 
 }
+.videoGitHub{
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;/*hacer que la imagen se quede en el centro*/
+    width: 560px;
+    height: 315px;
+
+}
+.Videohtml{
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;/*hacer que la imagen se quede en el centro*/
+    width: 560px;
+    height: 315px;
+}
 .pie_pag{
     
     width: 100%;
     background: #f2f2f2;
     box-shadow: 1px 1px 5px #000;
-    height: 50px;
+    height: 60px;
     text-align: center;
     border-radius: 5px;
     border-style: solid ;
